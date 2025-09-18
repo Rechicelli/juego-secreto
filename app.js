@@ -34,6 +34,10 @@ function verificarIntento() {
   return;
 }
 
+function alApretarEnter() {
+  console.log("enter");
+}
+
 function limpiarCaja() {
   document.querySelector("#valorUsuario").value = "";
 }
